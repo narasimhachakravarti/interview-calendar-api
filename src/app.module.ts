@@ -1,12 +1,11 @@
+// src/app.module.ts
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import configuration from './config/configuration';
-import { InterviewerModule } from './modules/interviewer/interviewer.module';
-import { CandidatesModule } from './modules/candidates/candidates.module';
 import { CalendarModule } from './modules/calendar/calendar.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { AvailabilityModule } from './modules/availability/availability.module';
+import configuration from './config/configuration';
 
 @Module({
   imports: [
@@ -29,8 +28,9 @@ import { CalendarModule } from './modules/calendar/calendar.module';
       }),
       inject: [ConfigService],
     }),
-    InterviewerModule, CandidatesModule, CalendarModule],
-  controllers: [AppController],
-  providers: [AppService],
+    AuthModule,
+    AvailabilityModule,
+    CalendarModule,
+  ],
 })
 export class AppModule {}
