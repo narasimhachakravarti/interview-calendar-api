@@ -333,8 +333,7 @@ interview-calendar-api/
 │   │   ├── availability/     # Availability slot management
 │   │   └── calendar/         # Interview slot matching
 │   ├── database/
-│   │   ├── entities/         # Database entities
-│   │   └── migrations/       # TypeORM migrations
+│   │   └── entities/         # Database entities
 │   ├── common/               # Shared utilities and types
 │   └── main.ts               # Application entry point
 ├── docker-compose.yml        # Docker Compose configuration
