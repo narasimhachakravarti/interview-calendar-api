@@ -35,6 +35,10 @@ A production-ready REST API for coordinating interview schedules between candida
 The easiest way to get started is with Docker Compose:
 
 ```bash
+
+### Prerequisites
+- Docker installed on your machine ([Download Docker](https://www.docker.com/products/docker-desktop/))
+
 # Clone the repository
 git clone https://github.com/narasimhachakravarti/interview-calendar-api
 cd interview-calendar-api
@@ -51,13 +55,7 @@ This starts:
 - PostgreSQL database with persistent storage
 - Swagger documentation on http://localhost:3000/api/docs
 
-### Using Docker
-
-If you prefer to run just the API container:
-
-### Prerequisites
-- /docker-desktop/))
-
+```bash
 
 ## API Documentation
 
