@@ -64,18 +64,20 @@ The API is documented using Swagger. Access the interactive documentation at:
 http://localhost:3000/api/docs
 ```
 
-### Endpoints Overview
+## Endpoints Overview
 
-| Module | Endpoint | Method | Description |
-|--------|----------|--------|-------------|
-| **Auth** | `/auth/register` | POST | Register a new user |
-| | `/auth/login` | POST | Login and receive JWT token |
-| | `/auth/profile` | GET | Get current user profile |
-| **Availability** | `/availability` | POST | Add availability slot |
-| | `/availability/my-slots` | GET | Get current user's slots |
-| | `/availability/candidates` | GET | Get all candidates' slots |
-| | `/availability/interviewers` | GET | Get all interviewers' slots |
-| **Calendar** | `/calendar/available-slots` | POST | Find matching slots |
+| **Module**      | **Endpoint**                    | **Method** | **Description**                         |
+|------------------|----------------------------------|------------|-----------------------------------------|
+| **Auth**         | `/auth/register`                | `POST`     | Register a new user                     |
+|                  | `/auth/login`                   | `POST`     | Login and receive JWT token             |
+|                  | `/auth/profile`                 | `GET`      | Get current user profile                |
+| **Availability** | `/availability`                 | `POST`     | Add availability slot                   |
+|                  | `/availability/my-slots`        | `GET`      | Get current user's slots                |
+|                  | `/availability/candidates`      | `GET`      | Get all candidates' slots               |
+|                  | `/availability/interviewers`    | `GET`      | Get all interviewers' slots             |
+| **Calendar**     | `/calendar/available-slots`     | `POST`     | Find matching slots                     |
+
+---
 
 ## API Testing with Curl
 
