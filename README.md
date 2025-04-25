@@ -59,8 +59,8 @@ This starts:
 
 The API is documented using Swagger. Access the interactive documentation at:
 ```
-http://localhost:3000/api/docs
 ```
+http://localhost:3000/api/docs
 ```
 ## Endpoints Overview
 
