@@ -6,9 +6,6 @@ A production-ready REST API for coordinating interview schedules between candida
 
 - [Features](#features)
 - [Running the Application](#running-the-application)
-  - [Using Docker Compose (Recommended)](#using-docker-compose-recommended)
-  - [Using Docker](#using-docker)
-  - [Manual Setup](#manual-setup)
 - [API Documentation](#api-documentation)
 - [API Testing with Curl](#api-testing-with-curl)
 - [System Architecture](#system-architecture)
@@ -55,15 +52,15 @@ This starts:
 - PostgreSQL database with persistent storage
 - Swagger documentation on http://localhost:3000/api/docs
 
-```bash
-
 ## API Documentation
+
+```bash
 
 The API is documented using Swagger. Access the interactive documentation at:
 ```
 http://localhost:3000/api/docs
 ```
-
+```
 ## Endpoints Overview
 
 | **Module**      | **Endpoint**                    | **Method** | **Description**                         |
@@ -79,7 +76,7 @@ http://localhost:3000/api/docs
 
 ---
 
-## API Testing with Curl
+
 
 ### Authentication
 
