@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+
+# Build outputs
+dist/
+build/
+
+# Development and documentation files
+.git/
+.github/
+test/
+README.md
+*.md
+docker-compose*.yml
+
+# Environment and configuration
+.env
+.env.*
+*.env.js
+*.config.js
+!nest-cli.json
+!tsconfig.json
+!tsconfig.build.json
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
