@@ -7,6 +7,7 @@ A production-ready REST API for coordinating interview schedules between candida
 - [Features](#features)
 - [Running the Application](#running-the-application)
 - [API Documentation](#api-documentation)
+- [Endpoints Overview](#endpoints-overview)
 - [API Testing with Curl](#api-testing-with-curl)
 - [System Architecture](#system-architecture)
 - [Domain Model](#domain-model)
@@ -78,7 +79,7 @@ http://localhost:3000/api/docs
 
 
 
-### Authentication
+## API Testing with Cur
 
 **Register a user (interviewer)**
 ```bash
