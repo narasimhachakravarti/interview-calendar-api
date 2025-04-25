@@ -79,7 +79,7 @@ http://localhost:3000/api/docs
 
 
 
-## API Testing with Cur
+## API Testing with Curl
 
 **Register a user (interviewer)**
 ```bash
