@@ -13,8 +13,7 @@ A production-ready REST API for coordinating interview schedules between candida
 - [Domain Model](#domain-model)
 - [Authentication Flow](#authentication-flow)
 - [Slot Matching Algorithm](#slot-matching-algorithm)
-- [Project Structure](#project-structure)
-
+- [Technical Design Decisions](#technical-design-decisions)
 ## Features
 
 - **Unified User Model**: Single entity with role-based permissions (candidate/interviewer)
@@ -321,25 +320,6 @@ function findMatchingSlots(candidateSlots, interviewerAvailabilities, interviewe
 
   return sortByDateAndTime(matchingSlots);
 }
-```
-
-## Project Structure
-
-```
-interview-calendar-api/
-├── src/
-│   ├── modules/
-│   │   ├── auth/             # Authentication and user management
-│   │   ├── availability/     # Availability slot management
-│   │   └── calendar/         # Interview slot matching
-│   ├── database/
-│   │   └── entities/         # Database entities
-│   ├── common/               # Shared utilities and types
-│   └── main.ts               # Application entry point
-├── docker-compose.yml        # Docker Compose configuration
-├── Dockerfile                # Multi-stage Docker build
-├── .env.example              # Example environment variables
-└── README.md                 # This documentation
 ```
 
 ## Technical Design Decisions
